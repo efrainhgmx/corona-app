@@ -1,3 +1,18 @@
+:root {
+    --green-color: #1D957F;
+    --blue-color: #4285F4;
+    --text-color: #616161;
+}
+
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+button,
+a {
+    font-family: 'Rubik', sans-serif;
 }
