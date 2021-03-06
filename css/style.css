@@ -16,3 +16,8 @@ button,
 a {
     font-family: 'Rubik', sans-serif;
 }
+
+.wrapper {
+    max-inline-size: 1350px;
+    margin: 0 auto;
+}
