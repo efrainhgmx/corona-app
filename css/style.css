@@ -12,12 +12,85 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+}
+
+h1 strong,
+h2 strong,
+h3 strong {
+    color: var(--green-color);
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
 button,
 a {
     font-family: 'Rubik', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+button {
+    inline-size: 130px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    background-color: var(--green-color);
+    color: white;
+    margin-block: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .wrapper {
     max-inline-size: 1350px;
     margin: 0 auto;
+}
+
+/* Header Section */
+
+
+
+/* Main section */
+
+
+/* Hero Section */
+.hero-buttons--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-video--button {
+    background-color: transparent;
+    color: black;
+}
+
+.hero-video--button span {
+    display: inline-block;
+    inline-size: 20px;
+    block-size: 20px;
+    margin-inline-end: 5px;
+    background-image: url(../assets/icons/play-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.hero-image--container {
+    inline-size: 100%;
+    margin:0 auto;
 }
