@@ -65,7 +65,9 @@ button:hover {
 
 
 /* Main section */
-
+section {
+    margin: 40px auto;
+}
 
 /* Hero Section */
 .hero-buttons--container {
@@ -93,4 +95,14 @@ button:hover {
 .hero-image--container {
     inline-size: 100%;
     margin:0 auto;
+}
+
+/* Section about App */
+.about-image--container {
+    width: 250px;
+    margin: auto;
+}
+
+.section-about--content {
+    text-align: center;
 }
