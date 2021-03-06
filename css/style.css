@@ -73,6 +73,7 @@ section {
 .hero-buttons--container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .hero-video--button {
