@@ -1,5 +1,28 @@
+p {
+    font-size: 1.5rem;
+}
 /* HEADER SECTION */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+.menu {
+    width: 60%;
+}
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+ul li:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
 /* MAIN SECTION */
 /* Hero Sectiont */
 section {
@@ -42,6 +65,16 @@ section:last-of-type {
 
 .stats-description {
     display: flex;
+    margin-block-start: 25px;
+}
+
+.stats-description--container {
+    inline-size: 50%;
+    text-align: left;
+}
+
+.stats-image--container {
+    inline-size: 500px;
 }
 
 .cards-container {
