@@ -62,7 +62,9 @@ button:hover {
 }
 
 /* Header Section */
-
+.header-image--container {
+    inline-size: 140px;
+}
 
 
 /* Main section */
