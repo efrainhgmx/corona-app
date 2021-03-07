@@ -68,6 +68,7 @@ button:hover {
 /* Main section */
 section {
     margin: 40px auto;
+    text-align: center;
 }
 
 /* Hero Section */
@@ -109,11 +110,13 @@ section {
 
 /* Stats Section */
 section:nth-of-type(3) {
+    inline-size: 100%;
+    padding: 20px 3px;
     background-color: #FAFBFD;
 }
 
 .stats-content {
-    margin: auto;
+    margin: 15px auto;
     padding: 15px 28px;
     border-radius: 14px;
     box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);;
