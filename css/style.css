@@ -20,9 +20,7 @@ h3 {
     line-height: 5.5rem;
 }
 
-h1 strong,
-h2 strong,
-h3 strong {
+strong {
     color: var(--green-color);
 }
 
@@ -106,4 +104,40 @@ section {
 
 .section-about--content {
     text-align: center;
+}
+
+/* Stats Section */
+section:nth-of-type(3) {
+    background-color: #FAFBFD;
+}
+
+.stats-content {
+    margin: auto;
+    padding: 15px 28px;
+    border-radius: 14px;
+    box-shadow: 0 -1px 8px 3px rgba(0, 0, 0, 0.2 );
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.stats-content strong {
+    font-size: 3.6rem;
+}
+
+.stats-content span {
+    font-weight: 700;
+    letter-spacing: .6rem;
+}
+
+.stats-description--container {
+    text-align: center;
+}
+
+.stats-description--container button {
+    inline-size: 150px;
+}
+
+.stats-image--container {
+    inline-size: 280px;
+    margin: auto;
 }
