@@ -1,0 +1,63 @@
+/* HEADER SECTION */
+
+/* MAIN SECTION */
+/* Hero Sectiont */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section--content {
+    inline-size: 50%;
+    text-align: left;
+}
+
+.hero-buttons--container {
+    align-items: flex-start;
+}
+
+.hero-image--container {
+    max-inline-size: 550px;
+}
+
+.about-image--container {
+    width: 420px;
+}
+
+.section-about--content {
+    width: 50%;
+    padding: 35px;
+    text-align: left;
+    margin-inline-start: 35px;
+}
+
+section:nth-of-type(3),
+section:last-of-type {
+    flex-direction: column;
+}
+.stats-content {
+    display: flex;
+}
+
+.stats-description {
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content figure {
+    margin: 0;
+}
+
+.footer-content figure:last-child {
+    inline-size: 186px;
+}
