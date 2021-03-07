@@ -169,3 +169,17 @@ section:last-of-type {
 h3 {
     font-size: 1.6rem;
 }
+
+/* Footer Section */
+.footer-content figure {
+    inline-size: 180px;
+    margin-block-end: 10px;
+}
+
+.footer-content figure:hover {
+    cursor: pointer;
+}
+
+.footer-content figure:last-child {
+    inline-size: 195px;
+}
