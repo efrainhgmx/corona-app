@@ -63,7 +63,7 @@ section:last-of-type {
 .stats-container {
     display: flex;
     width: 80%;
-    height: 200px;
+    height: 250px;
     background-image: url(../assets/img/background-stats.svg);
     background-position: center;
     background-size: cover;
@@ -73,8 +73,26 @@ section:last-of-type {
 .stats-content {
     display: flex;
     margin: auto;
+    padding-inline: 45px;
     max-inline-size: 600px;
+    align-items: flex-end;
     background-color: white;
+}
+
+.stats-content span {
+    position: relative;
+}
+
+.stats-content span:first-of-type {
+    right: 65px;
+}
+
+.stats-content span:nth-of-type(2) {
+    right: 75px;
+}
+
+.stats-content span:last-of-type {
+    right: 130px;
 }
 
 .stats-description {
@@ -117,4 +135,10 @@ section:last-of-type {
 
 .footer-content figure:last-child {
     inline-size: 186px;
+}
+
+@media (max-width: 768px) {
+    .stats-content strong {
+        font-size: 3.4rem;
+    }
 }
