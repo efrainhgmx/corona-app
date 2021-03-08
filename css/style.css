@@ -75,6 +75,9 @@ button:hover {
     inline-size: 30px;
     block-size: 30px;
     margin-inline-end: 10px;
+    background-color: rgba(32, 32, 32, 0.1);
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .header-image--container {

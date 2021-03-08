@@ -8,21 +8,6 @@ p {
     align-items: center;
     padding-inline: 20px;
 }
-.menu {
-    width: 60%;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 1.2rem;
-}
-
-ul li:hover {
-    cursor: pointer;
-    font-weight: 700;
-}
 /* MAIN SECTION */
 /* Hero Sectiont */
 section {
@@ -138,7 +123,38 @@ section:last-of-type {
 }
 
 @media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-section--content {
+        max-inline-size: 420px;
+        text-align: center;
+    }
+
+    .hero-buttons--container {
+        align-items: center;
+    }
+
     .stats-content strong {
         font-size: 3.4rem;
     }
+
+}
+
+@media (min-width: 800px) {
+    .icon-menu {
+        display: none;
+    }
+    .menu {
+        position: static;
+        width: 60%;
+        background-color: transparent;
+        color: black;
+    }
+
+    .sub-menu {
+        flex-direction: row;
+    }
+    
 }
