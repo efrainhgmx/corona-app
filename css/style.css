@@ -67,9 +67,14 @@ button:hover {
     right: 0;
 }
 
+.icon-menu:hover {
+    cursor: pointer;
+}
+
 .icon-menu img {
     inline-size: 30px;
     block-size: 30px;
+    margin-inline-end: 10px;
 }
 
 .header-image--container {
@@ -83,7 +88,7 @@ button:hover {
     color: white;
     z-index: 1;
     top: 0;
-    right: 0;
+    right: -65vw;
     width: 65vw;
     height: inherit;
     bottom: 0;
@@ -109,7 +114,7 @@ button:hover {
 }
 
 .menu.is-active {
-    right: 50%;
+    right: 0;
 }
 
 
