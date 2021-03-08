@@ -62,9 +62,54 @@ button:hover {
 }
 
 /* Header Section */
+.icon-menu {
+    position: fixed;
+    right: 0;
+}
+
+.icon-menu img {
+    inline-size: 30px;
+    block-size: 30px;
+}
+
 .header-image--container {
     inline-size: 140px;
     margin: 0;
+}
+
+.menu {
+    position: fixed;
+    background-color: var(--green-color);
+    color: white;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 65vw;
+    height: inherit;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+.sub-menu {
+    font-size: 1.6rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 50%;
+    width: 90%;
+}
+
+.sub-menu li:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.menu.is-active {
+    right: 50%;
 }
 
 
