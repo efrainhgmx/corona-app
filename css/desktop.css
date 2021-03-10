@@ -1,20 +1,28 @@
 p {
     font-size: 1.5rem;
 }
-/* HEADER SECTION */
-.header-content {
+.header-content,
+section,
+.stats-container, 
+.stats-content,
+.stats-description,
+.cards-container,
+.footer-content {
     display: flex;
+}
+/* HEADER SECTION */
+.header-content,
+section {
     justify-content: space-between;
     align-items: center;
     padding-inline: 20px;
 }
+
+.header-content {
+    padding-inline: 20px;
+}
 /* MAIN SECTION */
 /* Hero Sectiont */
-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .hero-section--content {
     inline-size: 50%;
@@ -46,8 +54,7 @@ section:last-of-type {
 }
 
 .stats-container {
-    display: flex;
-    width: 80%;
+    width: 100%;
     height: 250px;
     background-image: url(../assets/img/background-stats.svg);
     background-position: center;
@@ -56,7 +63,6 @@ section:last-of-type {
 }
 
 .stats-content {
-    display: flex;
     margin: auto;
     padding-inline: 45px;
     max-inline-size: 600px;
@@ -81,7 +87,6 @@ section:last-of-type {
 }
 
 .stats-description {
-    display: flex;
     margin-block-start: 25px;
 }
 
@@ -95,12 +100,12 @@ section:last-of-type {
 }
 
 .cards-container {
-    display: flex;
     width: 100%;
     height: 280px;
     justify-content: center;
     background-image: url(../assets/img/background-stats.svg);
-    background-size: cover;
+    background-size: contain;
+    background-clip: border-box;
 }
 
 .card {
@@ -109,7 +114,6 @@ section:last-of-type {
 }
 
 .footer-content {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
