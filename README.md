@@ -1,4 +1,4 @@
-# corona-app
+# Corona-app
 Landing Page para descargar la app de corona app. Una App para informarte sobre el nuevo coronavirus.
 Y obtener asistencia médica desde tu teléfono.
 
@@ -12,7 +12,7 @@ Y obtener asistencia médica desde tu teléfono.
 
 Puede ver el proyecto dando click [aquí.](efrainhgmx.github.io/corona-app/ "Here")
 
-### Contributors
+### Contributors 🤳
 
 **Code by [@efrainhgmx](https://www.instagram.com/efrainhgmx/ "@efrainhgmx")**
 
